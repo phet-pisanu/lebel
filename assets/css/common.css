@@ -1006,4 +1006,6 @@ img.btn {
 		.w-auto{width:auto !important;}
         */
         
-   
+        #footer .term_list li:last-child img {
+           opacity: 0;
+        }
