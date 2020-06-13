@@ -1,0 +1,145 @@
+@charset "SHIFT_JIS";
+
+/* SideGlobalMenu */
+#sideGlobalMenu{
+	box-sizing: border-box;
+	width: 320px;
+	height: 100%;
+	position: fixed;
+	box-sizing: border-box;
+	top: 0;
+	left: -330px;
+	z-index: 7;
+	padding-left: 50px;
+	color: #333333;
+	background: #fff;
+	text-align: left;
+	transition: all 500ms 0s ease;
+}
+#sideGlobalMenu.on{
+	left: 0;
+	box-shadow: 0 0 8px #999;
+	-moz-box-shadow: 0 0 8px #999;
+	-webkit-box-shadow: 0 0 8px #999;
+	-ms-box-shadow: 0 0 8px #999;
+}
+#sideGlobalMenu .main_menu li{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+#sideGlobalMenu .main_menu li:last-child{
+	margin-bottom: 0;
+}
+#sideGlobalMenu .main_menu .instagram img{
+	vertical-align: middle;
+}
+#sideGlobalMenu .wrapper{
+	position: absolute;
+	top: 15%;
+	/*transform: translateY(-50%);*/
+}
+#sideGlobalMenu .button{
+	right: -60px;
+	background: #fff;
+	padding: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.anime200{
+	transition-duration: 200ms;
+}
+.anime500{
+	transition-duration: 500ms;
+}
+#sideGlobalMenu.on .button{
+	right: 20px;
+}
+#sideGlobalMenu a{
+	color: inherit;
+}
+#sideGlobalMenu a:hover{
+	text-decoration: underline;
+}
+.humberger_icon{
+	display: inline-block;
+	height: 32px;
+	width: 30px;;
+	line-height: 0;
+}
+.humberger_icon li{
+	display: inline-block;
+	height: 3px;
+	width: 30px;
+	background-color: #333;
+	margin: 2px 0;
+	border-radius: 2px;
+	transition: all 250ms 0s ease;
+}
+.humberger_icon.on li{
+	margin: 3px 0;
+}
+.humberger_icon li.text{
+	background: none;
+	font-size: 10px;
+	font-weight: bold;
+}
+a.empty_button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#sideGlobalMenu .logo{
+	margin: 0 0 50px 40px;
+}
+@media screen and (max-width: 640px) {
+	#sideGlobalMenu{
+		width: 150px;
+		left: -160px;
+		padding-left: 1em;
+	}
+	#sideGlobalMenu .main_menu li{
+		font-size: 12px;
+		margin-bottom: 2em;
+	}
+	#sideGlobalMenu .wrapper{
+		top: 100px;
+		transform: translateY(0);
+	}
+	#sideGlobalMenu .logo{
+		width: 50%;
+		margin: 0 auto 30px 25px;
+	}
+	#sideGlobalMenu .logo img{
+		width: 100%;
+		height: auto;
+	}
+	#sideGlobalMenu .button::before{
+		content: "";
+		position: absolute;
+		width: 10px;
+		height: 100%;
+		background: #fff;
+		left: -10px;
+		top: 0;
+	}
+	#sideGlobalMenu .button{
+		top: 80px;
+		right: -60px;
+		box-shadow: 0 0 8px #999;
+		-moz-box-shadow: 0 0 8px #999;
+		-webkit-box-shadow: 0 0 8px #999;
+		-ms-box-shadow: 0 0 8px #999;
+	}
+	#sideGlobalMenu.on .button{
+		right: -50px;
+	}
+	#sideGlobalMenu .main_menu .instagram img{
+		width: 15px;
+		height: 15px;
+	}
+	a.humberger_cue{
+	}
+}

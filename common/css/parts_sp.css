@@ -1,0 +1,1631 @@
+/*
+
+	/index
+
+*/
+
+
+/*
+	/index
+	section.mainimage
+*/
+
+.index #content .col1 {
+    width: 100%;
+    height: auto;
+}
+
+.index #content .mainimage {
+    margin-top: 0;
+    height: auto;
+    display: block;
+}
+
+.index #content .mainimage div img {
+    width: 100%;
+}
+
+.column_list {
+    margin-top: 20px;
+}
+
+.column_list .column:nth-child(odd) {
+    margin: 0 0 10px 0;
+}
+
+.column_list .column:nth-child(even) {
+    margin: 0 0 10px 0;
+}
+
+.column_list .column img {
+    width: 90%;
+    height: auto;
+}
+
+.column {
+    display: block;
+}
+
+.index .youtube {
+    position: static;
+    margin-top: 20px;
+}
+
+.index .youtube iframe {
+    width: 100%;
+    height: calc(100vw * 0.6526);
+}
+
+.index #content .news {
+    width: 100%;
+}
+
+.index #content .news ul {
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+/*
+	/index
+	section.products
+*/
+
+.index #content h2 {
+    margin: 20px 0 5px;
+    padding: 0 0 10px 10px;
+    font-size: 180%;
+    color: #404040;
+    border-bottom: 2px solid #404040;
+}
+
+.index #content .products {
+    width: 100%;
+    float: none;
+}
+
+.index #content .products article.color,
+.index #content .products article.perm,
+.index #content .products article.care,
+.index #content .products article.styling,
+.index #content .products article.mens {
+    box-sizing: border-box;
+    width: 48%;
+    margin: 10px 1% 0;
+}
+
+.index #content .products article.color ul li,
+.index #content .products article.perm ul li,
+.index #content .products article.care ul li,
+.index #content .products article.styling ul li,
+.index #content .products article.mens ul li {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 0 0 10px;
+    background: url(../../img/index/ic_arrow_right01.png) left 0.55em no-repeat;
+}
+
+.index #content .products article.pickup {
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+}
+
+.index #content .products article.pickup div.block_outer {
+    border-top: 1px solid #444;
+    background: #eee;
+    padding: 20px;
+}
+
+.index #content .products article.pickup:before,
+.index #content .products article.pickup:after {
+    content: "";
+    display: table;
+}
+
+.index #content .products article.pickup:after {
+    clear: both;
+}
+
+.index #content .products article.pickup {
+    zoom: 1;
+}
+
+.index #content .products article.pickup div.block {
+    width: auto;
+    height: auto;
+    float: none;
+    background: #FFF;
+    padding: 10px 20px;
+}
+
+.index #content .products article.pickup div.block div img {
+    width: 100%;
+}
+
+.index #content .products article.pickup h3,
+.index #content .products article.pickup p {
+    margin-left: 0px;
+}
+
+.index #content .products article.pickup h3 {
+    margin-top: 20px;
+}
+
+.index #content .attention {
+    width: 85%;
+    padding: 20px;
+}
+
+
+/*
+	/index
+	section.contents
+*/
+
+.index #content .contents:before,
+.index #content .contents:after {
+    content: "";
+    display: table;
+}
+
+.index #content .contents:after {
+    clear: both;
+}
+
+.index #content .contents {
+    zoom: 1;
+}
+
+.index #content .contents article.compass,
+.index #content .contents article.eco,
+.index #content .contents article.other {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    float: none;
+    height: auto !important;
+}
+
+.index #content .contents article.compass ul,
+.index #content .contents article.eco ul {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+.index #content .contents article a {
+    color: #444;
+    text-decoration: none;
+}
+
+.index #content .contents article a:hover {
+    text-decoration: underline;
+}
+
+.index #content .contents article.compass {
+    padding-left: 10px;
+    border-left: none;
+}
+
+.index #content .contents article.compass h3,
+.index #content .contents article.eco h3 {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.index #content .contents article.compass p,
+.index #content .contents article.compass ul,
+.index #content .contents article.eco p,
+.index #content .contents article.eco ul {
+    margin: 10px 0;
+}
+
+.index #content .contents article.other h3 {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+.index #content .contents article.other h3,
+.index #content .contents article.other p {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+
+.index #content .contents article ul {
+    overflow: hidden;
+}
+
+.index #content .contents article li {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 0 0 10px;
+    background: url(../../img/index/ic_arrow_right01.png) left 0.65em no-repeat;
+}
+
+.index #content .contents article.compass li,
+.index #content .contents article.eco li {
+    width: 100%;
+}
+
+.index #content .contents article li a {
+    display: block;
+    padding: 0.2em 10px 0.2em 0;
+}
+
+.index #content .contents article.other h3 {
+    padding-top: 20px;
+    border-top: 1px solid #CCC;
+}
+
+.index #content .contents article.other h3:first-child {
+    border-top: none;
+}
+
+.index #content .contents article.other h3:nth-last-of-type(1) {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+}
+
+.index #content .contents article p {
+    line-height: 1.8;
+}
+
+
+/* ---------------------------
+
+	/products/
+
+--------------------------- */
+
+.spBlock {
+    display: block !important;
+}
+
+.pcBlock {
+    display: none !important;
+}
+
+.products #content {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.products #content h1 {
+    background-image: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px 2px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.95, #c0c0c0), color-stop(0.65, #fff), color-stop(0.00, #f9f9f9));
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -o-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: linear-gradient(to bottom, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    text-indent: 0;
+    width: auto;
+    margin: 20px 0;
+}
+
+.products #content h1 span {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 10px 18px;
+    position: relative;
+    height: 1em;
+}
+
+.products #content h1 span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(75, 73, 73);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(75, 73, 73, 1)), color-stop(100%, rgba(144, 143, 143, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4b4949', endColorstr='#908f8f', GradientType=1);
+    /* IE6-9 */
+}
+
+.products #content nav {
+    width: 100%;
+    margin: 40px 25px;
+    overflow: hidden;
+}
+
+.products #content nav ul li {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0 2px;
+}
+
+.products #content nav ul li a {
+    display: block;
+    height: 40px;
+    background-image: url(../../products/img/index/bg_navi_off.gif);
+    background-position: bottom center !important;
+    background-repeat: no-repeat;
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.products #content nav ul li a.on {
+    background-image: url(../../products/img/index/bg_navi_on.gif);
+}
+
+.products #content nav ul li a span {
+    display: block;
+    text-indent: 0;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.products #content div.menu {
+    width: 100%;
+}
+
+.products #content div.menu ul li {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.products #content div.menu ul li a {
+    padding: 0.2em 0 0.2em 15px;
+    background-position: left 0.8em;
+}
+
+.products #content h2 {
+    border-right: 1px solid #EEE;
+    width: 100%;
+    overflow: hidden;
+}
+
+.products #content h2 span {
+    display: block;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0 0 0 20px;
+}
+
+.products #content h3.series {
+    border-bottom: 1px solid #CCC;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.products #content h3.series span {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #888;
+}
+
+.products #content article.item,
+.products #content article.item p.photo,
+.products #content article.item div.spec,
+.products #content article.item div.buttons {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0;
+}
+
+.products #content article.item p.photo,
+.products #content article.item div.spec h3 {
+    text-align: center;
+}
+
+.products #content article.item p.photo img,
+.products #content article.item div.spec img {
+    max-width: 100%;
+}
+
+.products #content article.item div.buttons {
+    padding: 25px 0;
+}
+
+.products #content article.item div.buttons ul {
+    text-align: center;
+}
+
+.products #content article.item div.buttons ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.products #content article.item div.buttons ul li.ct a,
+.products #content article.item div.buttons ul li.cl a,
+.products #content article.item div.buttons ul li.gd a,
+.products #content article.item div.buttons ul li.mv a,
+.products #content article.item div.buttons ul li.dt a {
+    color: #FFF;
+    line-height: 3em;
+    height: 3em;
+    text-decoration: none;
+    text-indent: 0;
+    background: rgb(190, 176, 56);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(190, 176, 56, 1)), color-stop(100%, rgba(178, 163, 43, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#beb038', endColorstr='#b2a32b', GradientType=0);
+    /* IE6-9 */
+}
+
+.products #content article.item div.buttons ul li.ctgm a,
+.products #content article.item div.buttons ul li.scdr a {
+    color: #FFF;
+    line-height: 1.5em;
+    height: 3em;
+    text-decoration: none;
+    text-indent: 0;
+    background: rgb(190, 176, 56);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(190, 176, 56, 1)), color-stop(100%, rgba(178, 163, 43, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(190, 176, 56, 1) 0%, rgba(178, 163, 43, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#beb038', endColorstr='#b2a32b', GradientType=0);
+    /* IE6-9 */
+}
+
+.products #content article.item div.buttons ul li.scdr a {
+    line-height: 3em;
+}
+
+.spmt1em a {
+    margin-top: 1em;
+}
+
+.products #content article.item div.buttons ul li.cl a,
+.products #content article.item div.buttons ul li.gd a {
+    line-height: 1.5em;
+}
+
+.products #content article.item div.buttons ul li.cl a em,
+.products #content article.item div.buttons ul li.gd a em {
+    display: block;
+}
+
+.products #content article.item div.buttons ul li a span {
+    display: block;
+    text-indent: 0;
+    text-align: center;
+}
+
+
+/* ---------------------------
+
+	/about/
+
+--------------------------- */
+
+.about #content {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.about #content h1 {
+    background-image: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px 2px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.95, #c0c0c0), color-stop(0.65, #fff), color-stop(0.00, #f9f9f9));
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -o-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: linear-gradient(to bottom, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    text-indent: 0;
+    width: auto;
+    margin: 20px 0;
+}
+
+.about #content h1 span {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 10px 18px;
+    position: relative;
+    height: 1em;
+}
+
+.about #content h1 span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(75, 73, 73);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(75, 73, 73, 1)), color-stop(100%, rgba(144, 143, 143, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4b4949', endColorstr='#908f8f', GradientType=1);
+    /* IE6-9 */
+}
+
+.about #content nav {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about #content nav ul li {
+    width: 33%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0 2px;
+}
+
+.about #content nav ul li a {
+    display: block;
+    height: 55px;
+    background-image: url(../../products/img/index/bg_navi_off.gif);
+    background-position: bottom center !important;
+    background-repeat: no-repeat;
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about #content nav ul li a.on {
+    background-image: url(../../products/img/index/bg_navi_on.gif);
+}
+
+.about #content nav ul li a span {
+    display: block;
+    text-indent: 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+.about #content h2 {
+    height: 27px;
+    line-height: 27px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    background: url(../../about/img/bg_h2.gif);
+    margin: 30px 0 20px;
+}
+
+.about #content h2 span {
+    display: inline-block;
+    background: #FFF;
+    padding: 0 0 0 0;
+    line-height: 1em;
+}
+
+.about #content section.history article {
+    padding: 0 0 20px;
+}
+
+.about .products_philosophy {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.about #content section.history article div.main,
+.about #content section.history article div.photo.right {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+.about #content section.history article div.photo ul li {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+    padding: 0 5px;
+    vertical-align: top;
+    font-size: 90%;
+}
+
+.about #content section.history article div.photo.bottom ul li {
+    vertical-align: bottom;
+    margin: 0 0 10px;
+    width: 50%;
+}
+
+.about #content section.history article div.photo ul.wide li {
+    width: 100%;
+    padding: 0;
+}
+
+.about #content section.history article div.photo ul li img {
+    max-width: 100%;
+}
+
+.center_pc_text {
+    text-align: left;
+}
+
+.tile_link {
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.tile_link li {
+    width: 47%;
+    text-align: center;
+    margin: 0 1% 10px;
+}
+
+.tile_link li img {
+    width: 100%;
+    height: auto;
+}
+
+#modal {
+    padding-bottom: 100px;
+}
+
+#modalContent {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+
+#modalContent .items img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ---------------------------
+
+	/modecompass
+
+--------------------------- */
+
+.modecompass #content {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.modecompass #content h1 {
+    background-image: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px 2px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.95, #c0c0c0), color-stop(0.65, #fff), color-stop(0.00, #f9f9f9));
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -o-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: linear-gradient(to bottom, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    text-indent: 0;
+    width: auto;
+    margin: 20px 0;
+}
+
+.modecompass #content h1 span {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 10px 18px;
+    position: relative;
+    height: 1em;
+}
+
+.modecompass #content h1 span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(75, 73, 73);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(75, 73, 73, 1)), color-stop(100%, rgba(144, 143, 143, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4b4949', endColorstr='#908f8f', GradientType=1);
+    /* IE6-9 */
+}
+
+.modecompass #content .mainimage {
+    height: auto;
+}
+
+.modecompass #content .mainimage div img {
+    width: 100%;
+}
+
+.modecompass .another_feminity {
+    margin: 30px auto 0;
+}
+
+.modecompass #content h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.bold_text {
+    font-size: 14px;
+}
+
+.main_text {
+    font-size: 12px;
+}
+
+.w55,
+.w45 {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.image_link {
+    display: block;
+    text-align: center;
+}
+
+.floating_left {
+    float: none;
+    margin: 0 auto 20px;
+    width: 70%;
+    height: auto;
+}
+
+.glay_area {
+    box-sizing: border-box;
+    background: #eee;
+    padding: 20px;
+    margin: 30px auto 0;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+/*
+	/about/philosophy
+	section.brand
+*/
+
+.about #content section.brand {}
+
+.about #content section.brand article.brand {
+    margin-top: 40px;
+    padding: 0 0 30px;
+}
+
+.about #content section.brand article.brand div.image {
+    float: none;
+}
+
+.about #content section.brand article.brand div.image img {
+    width: 100%;
+}
+
+.about #content section.brand article.brand div.main {
+    margin: 20px 0 0;
+}
+
+.about #content section.brand article.brand div.main h3 {
+    font-size: 200%;
+}
+
+.about #content section.brand article.brand div.main p {
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 140%;
+}
+
+.about #content section.brand article.principles {
+    padding: 30px 0 0;
+    border-top: 1px solid #bbac2d;
+}
+
+.about #content section.brand article.principles h4,
+.about #content section.brand article.principles p {
+    margin: 0 0 10px;
+}
+
+.about #content section.brand article.principles h3 {
+    font-size: 130%;
+    line-height: 180%;
+    color: #FFF;
+    width: 180px;
+    background: #c2a551;
+    float: none;
+    margin: 20px auto;
+}
+
+
+/*
+	/about/philosophy
+	section.logo
+*/
+
+.about #content section.logo {
+    margin: 0 0 30px;
+}
+
+.about #content section.logo p {
+    margin: 0 0 10px;
+}
+
+.about #content section.logo p.image {
+    float: none;
+    margin: 0;
+    width: auto;
+    margin: 0 0 20px;
+}
+
+
+/*
+	/en/about/philosophy
+	section.color
+*/
+
+.about #content section.color {
+    margin: 0 0 30px;
+}
+
+.about #content section.color p {
+    margin: 0 0 10px;
+}
+
+.about #content section.color p.image {
+    float: none;
+    margin: 0;
+    width: auto;
+    margin: 0 0 20px;
+}
+
+
+/* ---------------------------
+
+	/eco
+
+--------------------------- */
+
+.eco #content {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.eco #content h1 {
+    background-image: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px 2px 0 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.95, #c0c0c0), color-stop(0.65, #fff), color-stop(0.00, #f9f9f9));
+    background: -webkit-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -o-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: -ms-linear-gradient(top, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    background: linear-gradient(to bottom, #f9f9f9 0%, #fff 65%, #c0c0c0 95%);
+    text-indent: 0;
+    width: auto;
+    margin: 20px 0;
+}
+
+.eco #content h1 span {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 10px 10px 18px;
+    position: relative;
+    height: 1em;
+}
+
+.eco #content h1 span:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(75, 73, 73);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(75, 73, 73, 1)), color-stop(100%, rgba(144, 143, 143, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(75, 73, 73, 1) 0%, rgba(144, 143, 143, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4b4949', endColorstr='#908f8f', GradientType=1);
+    /* IE6-9 */
+}
+
+.eco #content nav {
+    width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.eco #content nav ul li {
+    width: 33%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0 2px;
+}
+
+.eco #content nav ul li a {
+    font-size: 75%;
+    display: block;
+    background-image: url(../../products/img/index/bg_navi_off.gif);
+    background-position: bottom center !important;
+    background-repeat: no-repeat;
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.eco #content nav ul li a.on {
+    background-image: url(../../products/img/index/bg_navi_on.gif);
+}
+
+.eco #content nav ul li a span {
+    display: block;
+    text-indent: 0;
+    text-align: center;
+}
+
+.eco #content nav ul li a span em {
+    font-weight: bold;
+    display: block;
+}
+
+.eco #content h2 {
+    height: auto;
+    background: url(../../eco/img/ic_h2.gif) left 0.3em no-repeat;
+    background-size: auto 0.8em;
+    padding: 0 0 0 1em;
+    margin: 30px 0 20px;
+    text-align: left;
+}
+
+.eco #content h2 span {
+    display: inline-block;
+    background: #FFF;
+    padding: 0 1em 0 0;
+}
+
+
+/*
+	/eco/index
+	section.approach
+*/
+
+.eco #content section.approach {
+    width: auto;
+}
+
+.eco #content section.approach h3 {
+    width: 100%;
+    height: auto !important;
+    text-indent: 0;
+    margin: 0 0 15px;
+    background: none !important;
+    font-size: 120%;
+}
+
+.eco #content section.approach h3 strong {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background: #329044;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.eco #content section.approach h3 span {
+    display: block;
+    margin: 0.5em 0;
+    color: #329044;
+    font-weight: bold;
+}
+
+.eco #content section.approach article {
+    margin: 30px 0;
+}
+
+.eco #content section.approach article:before,
+.eco #content section.approach article:after {
+    content: "";
+    display: table;
+}
+
+.eco #content section.approach article:after {
+    clear: both;
+}
+
+.eco #content section.approach article {
+    zoom: 1;
+}
+
+.eco #content section.approach p {
+    margin: 0 0 10px;
+    line-height: 160%;
+}
+
+.eco #content section.approach ul li {
+    margin: 0 0 10px;
+    font-size: 90%;
+    color: #666;
+}
+
+.eco #content section.approach article div.main {
+    width: 100%;
+    float: none;
+}
+
+.eco #content section.approach article div.image {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+.eco #content section.approach article div.image img {
+    max-width: 100%;
+}
+
+.eco #content section.approach article.products table {
+    width: auto;
+    margin: 0 0 30px;
+}
+
+.eco #content section.approach article.products table th,
+.eco #content section.approach article.products table td {
+    padding: 5px !important;
+}
+
+.eco #content section.approach article.products table th {
+    display: block;
+    font-size: 200%;
+    width: auto;
+}
+
+.eco #content section.approach article.products table td {
+    display: block;
+    color: #329044;
+    line-height: 180%;
+}
+
+.eco #content section.approach article.public div.image {
+    width: 100%;
+    float: none;
+    margin: 0 0 10px;
+}
+
+.eco #content section.approach article.public div.main {
+    width: 100%;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+    background: #eafbe0;
+    border-radius: 5px;
+}
+
+.eco #content section.approach article.public div.main h4 {
+    text-align: left;
+    margin: 0;
+    padding: 10px 40px 10px 0;
+    background: url(../../eco/img/ic_arrow_down01.gif) right center no-repeat;
+    background-size: 20px auto;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.eco #content section.approach article.public div.main h4.open {
+    background-image: url(../../eco/img/ic_close.png);
+}
+
+.eco #content section.approach article.public div.main>div {
+    display: none;
+}
+
+.eco #content section.approach article.public div.main table {
+    border-top: 1px solid #CCC;
+}
+
+.eco #content section.approach article.public div.main table th,
+.eco #content section.approach article.public div.main table td {
+    padding: 10px 10px 0;
+    vertical-align: top;
+}
+
+.eco #content section.approach article.public div.main table td {
+    padding-left: 0;
+}
+
+.eco #content section.approach article.public div.main ul {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.eco #content section.approach article.public div.main ul li {
+    box-sizing: border-box;
+    width: 30%;
+    padding: 0 2px;
+    display: inline-block;
+}
+
+.eco #content section.approach article.public div.main ul li img {
+    max-width: 100%;
+}
+
+
+/*
+	/eco/society
+	section.society
+*/
+
+.eco #content section.society {
+    width: 100%;
+}
+
+.eco #content section.society article {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.eco #content section.society article:before,
+.eco #content section.society article:after {
+    content: "";
+    display: table;
+}
+
+.eco #content section.society article:after {
+    clear: both;
+}
+
+.eco #content section.society article {
+    zoom: 1;
+}
+
+.eco #content section.society article h3 {
+    border: 1px solid #329044;
+    color: #329044;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 0 15px;
+}
+
+.eco #content section.society article div.image {
+    float: none;
+    width: 100%;
+}
+
+.eco #content section.society article div.image img {
+    max-width: 100%;
+}
+
+.eco #content section.society article div.main {
+    float: none;
+    width: 100%;
+    margin: 0;
+}
+
+.eco #content section.society article div.main p {
+    line-height: 175%;
+    margin: 0 0 15px;
+}
+
+.eco #content section.society article div.main p.button {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.eco #content section.society article div.main p.button a {
+    display: block;
+    line-height: 30px;
+    color: #FFF;
+    text-decoration: none;
+    background: url(../../eco/img/society/bg_bt.gif) left center no-repeat;
+    font-size: 90%;
+}
+
+.eco #content section.society article div.main p.button a span {
+    display: block;
+    padding: 0 10px 0 20px;
+}
+
+
+/*
+	/eco/policies
+	section.policies
+*/
+
+.eco #content section article:before,
+.eco #content section article:after {
+    content: "";
+    display: table;
+}
+
+.eco #content section article:after {
+    clear: both;
+}
+
+.eco #content section article {
+    zoom: 1;
+}
+
+.eco #content section.policies {
+    width: auto;
+    margin: 0 auto;
+}
+
+.eco #content section.policies h3 {
+    border: 1px solid #329044;
+    color: #329044;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 0 15px;
+}
+
+.eco #content section.policies p {
+    margin: 0 0 10px;
+    line-height: 175%;
+}
+
+.eco #content section.policies p.signature {
+    text-align: right;
+}
+
+
+/*
+	/eco/policies
+	section.management
+*/
+
+.eco #content section.management {
+    width: auto;
+}
+
+.eco #content section.management h3 {
+    border: 1px solid #329044;
+    color: #329044;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 0 15px;
+}
+
+.eco #content section.management p {
+    margin: 0 20px 10px;
+    line-height: 175%;
+}
+
+.eco #content section.management div.main {
+    width: auto;
+    float: left;
+}
+
+.eco #content section.management div.image {
+    width: auto;
+    float: none;
+    text-align: center;
+}
+
+.eco #content section.management div.image img {
+    max-width: 100%;
+}
+
+.eco #content section.management div.image.half img {
+    max-width: 50%;
+}
+
+
+/*
+	/eco/policies
+	section.voice
+*/
+
+.eco #content section.voice {
+    width: auto;
+}
+
+.eco #content section.voice h3 {
+    margin: 0 0 20px;
+}
+
+.eco #content section.voice article.pro {}
+
+.eco #content section.voice article.pro div.pro_voice_block {
+    position: relative;
+    margin: 0;
+    background: #ebf5cd;
+    border-radius: 10px;
+    color: #333;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block:before,
+.eco #content section.voice article.pro div.pro_voice_block:after {
+    content: "";
+    display: table;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block:after {
+    clear: both;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block {
+    zoom: 1;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block div {
+    float: none;
+    width: auto;
+    padding: 10px 10px 0;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block div ul li {
+    line-height: 175%;
+    margin-bottom: 10px;
+}
+
+.eco #content section.voice article.pro div.pro_voice_block div p {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 90%;
+    color: #666;
+    text-align: right;
+}
+
+.eco #content section.voice article.pro div.left {
+    width: auto;
+    float: none;
+    margin: 0;
+}
+
+.eco #content section.voice article h4 {
+    margin: 0;
+    padding: 10px;
+    background-size: 20px auto;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.eco #content section.voice article.pro h4 {
+    background: #329044;
+}
+
+.eco #content section.voice article.cs h4 {
+    background: #eb7015;
+}
+
+.eco #content section.voice article h4 strong {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0px 60px 0px 0;
+    background: url(../../eco/img/ic_arrow_down02.png) right center no-repeat;
+    background-size: 20px auto;
+}
+
+.eco #content section.voice article h4 span {
+    display: inline;
+}
+
+.eco #content section.voice article h4.open strong {
+    background-image: url(../../eco/img/ic_close02.png);
+}
+
+.eco #content section.voice article.pro div.right h4 span,
+.eco #content section.voice article.pro div.left h4 span {
+    display: block;
+}
+
+.eco #content section.voice article.pro div.left h4,
+.eco #content section.voice article.pro div.right h4 {
+    margin: 20px 0 15px;
+}
+
+.eco #content section.voice article.pro div.left div.item div.main dl dt {
+    float: left;
+    clear: left;
+    width: 3.5em;
+}
+
+.eco #content section.voice article.pro div.left div.item div.main dl dd {
+    margin-left: 3.5em;
+    text-align: right;
+}
+
+.eco #content section.voice article.pro div.left div.item div.image {
+    margin-left: 9em;
+}
+
+.eco #content section.voice article.pro div.left div.item div.image img {
+    max-width: 100%;
+}
+
+.eco #content section.voice article.pro div.right {
+    width: auto;
+    float: none;
+    margin: 0;
+    color: #333;
+}
+
+.eco #content section.voice article.pro div.right ul {
+    padding: 5px;
+}
+
+.eco #content section.voice article.pro div.right ul li,
+.eco #content section.voice article.pro div.right p {
+    line-height: 175%;
+}
+
+.eco #content section.voice article.pro div.right div.image {
+    margin: 20px 0 40px;
+}
+
+.eco #content section.voice article.pro div.right div.image img {
+    max-width: 100%;
+}
+
+.eco #content section.voice article.pro div.right p {
+    text-align: right;
+    color: #666;
+    font-size: 90%;
+}
+
+.eco #content section.voice article.cs div.left {
+    width: auto;
+    float: none;
+    margin: 0;
+    color: #333;
+}
+
+.eco #content section.voice article.cs div.right h4,
+.eco #content section.voice article.cs div.left h4 {
+    font-weight: bold;
+    color: #FFF;
+    background: #eb7015;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.eco #content section.voice article.cs div.right h4 span,
+.eco #content section.voice article.cs div.left h4 span {
+    display: block;
+}
+
+.eco #content section.voice article.cs div.left div.main {
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+.eco #content section.voice article.cs div.left div.main dl dt {
+    float: left;
+    clear: left;
+    width: 3.5em;
+}
+
+.eco #content section.voice article.cs div.left div.main dl dd {
+    margin-left: 3.5em;
+    text-align: right;
+}
+
+.eco #content section.voice article.cs div.left div.image {
+    margin-left: 9em;
+}
+
+.eco #content section.voice article.cs div.left div.image img {
+    width: 160px;
+}
+
+.eco #content section.voice article.cs div.right {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    position: relative;
+}
+
+.eco #content section.voice article.cs div.right ul {
+    padding: 5px;
+}
+
+.eco #content section.voice article.cs div.right ul li,
+.eco #content section.voice article.cs div.right p {
+    line-height: 175%;
+}
+
+.eco #content section.voice article.cs div.right p img {
+    max-width: 100%;
+}
+
+.eco #content section.voice article.cs p.memo {
+    padding: 20px 0 0;
+    clear: both;
+    text-align: right;
+    color: #666;
+    font-size: 90%;
+}
+
+.eco #content section.voice article.pro div.item,
+.eco #content section.voice article.cs div.item {
+    display: none;
+}
+
+.index .more_link {
+    width: 94%;
+    margin: 20px auto;
+}

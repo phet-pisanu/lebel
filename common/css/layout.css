@@ -1,0 +1,357 @@
+@charset "utf-8";
+
+/**
+* layout.css
+* @version			: 0.1
+* @description		: Common Layout
+* @content			: 
+=====================================
+	Structure
+	Header
+	Contents
+	Main Contents
+	Main Column
+	Bread Crumb Navigation
+===================================== */
+
+body {
+    font-family: Sarabun, Helvetica, sans-serif;
+    font-size: 85%;
+    line-height: 150%;
+}
+
+a#pageTop {
+    display: none;
+}
+
+.pcBlock {
+    display: block !important;
+}
+
+.spBlock {
+    display: none !important;
+}
+
+
+/* =====================================
+	Header
+===================================== */
+
+header {
+    background: url(../img/bg_header.gif) repeat-x;
+    overflow: hidden;
+}
+
+header .pcBlock {
+    margin: 0 auto;
+    width: 980px;
+    padding: 0 20px;
+    height: 100px;
+    position: relative;
+}
+
+header .pcBlock h1 {
+    position: absolute;
+    left: 0;
+    top: 49px;
+}
+
+header .pcBlock p {
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+
+header .pcBlock p a {
+    display: block;
+    width: 114px;
+    height: 13px;
+    text-indent: -9999px;
+    background: url(../img/bt_japanese.gif) no-repeat;
+}
+
+header .pcBlock p a:hover {
+    background-position: left bottom;
+}
+
+header .pcBlock ul {
+    width: 700px;
+    height: 60px;
+    background: url(../img/bt_mainnavi.gif) left top no-repeat;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+}
+
+header .pcBlock ul li {
+    float: left;
+}
+
+header .pcBlock ul li a {
+    display: block;
+    width: 102px;
+    height: 60px;
+    text-indent: -9999px;
+    background: url(../img/bt_mainnavi.gif) no-repeat;
+}
+
+header .pcBlock ul li#mn01 a {
+    background-position: 0 0;
+}
+
+header .pcBlock ul li#mn02 a {
+    background-position: -103px 0;
+}
+
+header .pcBlock ul li#mn03 a {
+    background-position: -203px 0;
+}
+
+header .pcBlock ul li#mn04 a {
+    background-position: -304px 0;
+    width: 162px;
+}
+
+header .pcBlock ul li#mn05 a {
+    background-position: -465px 0;
+}
+
+header .pcBlock ul li#mn06 a {
+    background-position: -566px 0;
+}
+
+.news header .pcBlock ul li#mn01 a,
+header .pcBlock ul li#mn01 a:hover {
+    background-position: 0 -60px;
+}
+
+.products header .pcBlock ul li#mn02 a,
+header .pcBlock ul li#mn02 a:hover { 
+    background-position: -103px -60px;
+}
+
+.about header .pcBlock ul li#mn03 a,
+header .pcBlock ul li#mn03 a:hover {
+    background-position: -203px -60px;
+}
+
+.modecompass header .pcBlock ul li#mn04 a,
+header .pcBlock ul li#mn04 a:hover {
+    background-position: -304px -60px;
+}
+
+.eco .pcBlock ul li#mn05 a,
+header .pcBlock ul li#mn05 a:hover {
+    background-position: -465px -60px;
+}
+
+header .pcBlock ul li#mn06 a:hover {
+    background-position: -566px -60px;
+}
+
+
+/* =====================================
+	Content
+===================================== */
+
+#content {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+/* =====================================
+	Footer
+===================================== */
+
+.pagetopButton {
+    width: 940px;
+    margin: 2em auto;
+    text-align: right;
+}
+
+.pagetopButton p {
+    display: inline-block;
+}
+
+.pagetopButton p a {
+    width: 50px;
+    height: 51px;
+    display: block;
+    background: url(../img/bt_pagetop.png);
+    position: fixed;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.pagetopButton p a span {
+    display: block;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+#topicpath {
+    padding: 5px 0;
+    background: #fafafa;
+    margin: 0 0 1px;
+    margin-top:-8px;
+    
+}
+
+#topicpath ul {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topicpath ul li {
+    float: left;
+    display: block;
+    margin-right: 0.5em;
+    font-size: 95%;
+}
+
+#topicpath ul li a {
+    margin-right: 0.5em;
+    color: #650;
+    text-decoration: none;
+}
+
+#topicpath ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright_wrapper {
+    box-sizing: border-box;
+    background: #424242;
+    padding: 3px 10px;
+}
+
+footer p.copyright {
+    margin: 0 auto;
+    width: 980px;
+    text-align: right;
+    color: #fff;
+    font-size: 10px;
+}
+
+footer .fnavi_wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    background: #eee;
+    border-top: solid 1px #ccc;
+    padding: 10px 0 7px;
+}
+
+footer .fnavi {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer .fnavi a.arrow_link {
+    line-height: 48px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+footer .fnavi .link_wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .fnavi .sns_wrapper {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    display: inline-block;
+}
+
+footer .fnavi .sns_wrapper a {
+    margin-left: 10px;
+}
+
+header .sns_wrapper {
+    position: absolute;
+    right: -750px;
+    top: 12px;
+}
+
+header .sns_wrapper a {
+    margin-left: 10px;
+}
+
+
+/* SNS�p */
+
+.index #sns_buttons {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    height: 71px;
+}
+
+#sns_buttons {
+    width: 980px;
+    height: 10px;
+    position: relative;
+}
+
+#sns_buttons ul {
+    position: absolute;
+    right: 0;
+}
+
+#sns_buttons ul:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+#sns_buttons ul li:first-child {
+    margin-top: 28px;
+}
+
+#sns_buttons ul li:last-child {
+    margin-right: 0;
+}
+
+#sns_buttons ul li {
+    float: left;
+    margin: 20px 16px 0 0;
+}
+
+@media screen and (max-width: 640px) {
+    #sns_buttons {
+        width: 100%;
+        height: 50px;
+    }
+    #sns_buttons ul {
+        left: calc(50% - 120px);
+    }
+
+
+}
+
+@media screen and (max-width: 769px) {
+
+    *{
+        max-width: 769px!important;
+
+        
+        overflow-x: hidden;
+        
+    }
+
+        
+    }
+@media screen and (max-width: 415px) {
+
+*{
+    max-width: 414px!important;
+    
+}
+    
+}
